@@ -1,4 +1,4 @@
-![Danish Bert](/img/header.jpg)
+![Danish Bert](/img/header2.jpg)
 
 Danish BERT
 ============
@@ -96,5 +96,5 @@ For better or worse, BERT has gotten a lot of public attention, and as a result,
 
 If you use this work, please consider staring this repository.
 
-This work was sponsored by Danish chatbot company BotXO
+This work was sponsored by Danish Conversational AI & chatbot company BotXO
 http://www.botxo.ai
