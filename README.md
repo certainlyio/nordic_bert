@@ -1,32 +1,49 @@
-![Danish Bert](/img/header2.jpg)
-
-Danish BERT
+Nordic BERT
 ============
 
-BERT (Bidirectional Encoder Representations from Transformers) is a deep neural network model used in Natural Language Processing. The network learns the grammar and semantics of human language by training on large bodies of text. Google has released BERT models for English and Chinese as well as a single multilingual model for all other languages. The multilingual model performs poorly for languages such as Danish because of underrepresentation in the training data.
+BERT (Bidirectional Encoder Representations from Transformers) is a deep neural network model used in Natural Language Processing. The network learns the grammar and semantics of human language by training on large bodies of text. Google has released BERT models for English and Chinese as well as a single multilingual model for all other languages. The multilingual model performs poorly for languages such as the Nordic languages because of underrepresentation in the training data.
 
-This repository provides downloadable weights for a Danish BERT model trained from scratch. This model can be used in downstream tasks to improve the performance of Danish Natural Language Processing systems.
+This repository provides downloadable weights for a Danish, a Norwegian and a Finnish BERT model trained from scratch. The models can be used in downstream tasks to improve the performance of Nordic Natural Language Processing systems.
 
 ### Download weights
 
-[Link](https://www.dropbox.com/s/b2ycb6l3icla0m1/danish_bert_uncased.zip?dl=0)
+- Danish Model:
+
+[Version 1](https://www.dropbox.com/s/b2ycb6l3icla0m1/danish_bert_uncased.zip?dl=1)
+[Version 2](https://www.dropbox.com/s/19cjaoqvv2jicq9/danish_bert_uncased_v2.zip?dl=1)
+
+- Norwegian Model:
+
+[Version 1](https://www.dropbox.com/s/avlcftcfm9k6gp0/norwegian_bert_uncased.zip?dl=1)
+
+- Finnish Model:
+
+(In progress, in the meantime, we refer to: )
+
+- Swedish Model
+
+(In progress, in the meantime, we refer to: )
 
 ### Data
 
-A major challenge of training mid-resources languages such as Danish is the scarcity of available training data, as General Purpose Language models require very large corpora.
+A major challenge of training mid-resources languages such as the Nordic languages is the scarcity of available training data, as General Purpose Language models require very large corpora.
 
-We have created a large Danish corpus by combing multiple sources:
+The Danish corpus was compiled by combing multiple sources:
 
 - All Danish language text from Common Crawl (9.5 gb)
 - The Danish Wikipedia (221 mb)
 - Custom scraped data from the two biggest Danish debate forums (dindebat.dk and hestenettet.dk), (123 mb, 45 mb)
 - Danish OpenSubtitles (881 mb)
 
+The Norwegian corpus consists of 5 gb data from Common Crawl.
+
+The Finnish corpus consists of 13 gb data from Common Crawl.
+
 All sources have been cleaned for HTML tags and deduplicated. We have used topic modeling to remove highly overrepresented topics from documents (e.g. cookie policies).
 
 All characters have been converted into either ASCII or one of the special Danish vowels Æ (æ) Ø (ø) and Å (å).
 
-Corpus statistics:
+Danish Corpus statistics:
 
 ```
 Number of sentences: 92,929,330
@@ -47,7 +64,7 @@ We trained this model on 8 v3 TPUs, achieving a throughput of ~950 training exam
 We used the following hyperparameters:
 
 ```
-Batch size: 128
+Batch size: 1280
 Max predictions per training sentence: 20
 Max training sentence length: 256
 Probability of masking word in training sentence: 0.15
@@ -74,7 +91,7 @@ It requires vast amounts of compute resources to train a BERT model.
 
 We have the technical expertise required to train models, but not the funds.
 
-If your organization would benefit from a BERT model pretrained on a custom dataset, or is interested in sponsoring Danish AI initiatives, please contact us at jdm@botxo.co.
+If your organization would benefit from a BERT model pretrained on a custom dataset, or is interested in sponsoring Nordic AI initiatives, please contact us at jdm@botxo.co.
 
 The price for training a custom model will depend on data size and availability.
 
