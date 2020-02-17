@@ -10,6 +10,7 @@ This repository provides downloadable weights for a Danish, a Norwegian and a Fi
 - Danish Model:
 
 [Version 1](https://www.dropbox.com/s/b2ycb6l3icla0m1/danish_bert_uncased.zip?dl=1)
+
 [Version 2](https://www.dropbox.com/s/19cjaoqvv2jicq9/danish_bert_uncased_v2.zip?dl=1)
 
 - Norwegian Model:
@@ -18,11 +19,11 @@ This repository provides downloadable weights for a Danish, a Norwegian and a Fi
 
 - Finnish Model:
 
-(In progress, in the meantime, we refer to: )
+(In progress, in the meantime, we refer to: https://github.com/TurkuNLP/FinBERT)
 
 - Swedish Model
 
-(In progress, in the meantime, we refer to: )
+(In progress, in the meantime, we refer to: https://github.com/af-ai-center/bert)
 
 ### Data
 
