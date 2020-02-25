@@ -3,7 +3,7 @@ Nordic BERT
 
 BERT (Bidirectional Encoder Representations from Transformers) is a deep neural network model used in Natural Language Processing. The network learns the grammar and semantics of human language by training on large bodies of text. Google has released BERT models for English and Chinese as well as a single multilingual model for all other languages. The multilingual model performs poorly for languages such as the Nordic languages because of underrepresentation in the training data.
 
-This repository provides downloadable weights for a Danish, a Norwegian and a Finnish BERT model trained from scratch. The models can be used in downstream tasks to improve the performance of Nordic Natural Language Processing systems.
+This repository provides downloadable weights for a Danish, a Norwegian and a Swedish BERT model trained from scratch. The models can be used in downstream tasks to improve the performance of Nordic Natural Language Processing systems.
 
 ### Download weights
 
@@ -17,13 +17,13 @@ This repository provides downloadable weights for a Danish, a Norwegian and a Fi
 
 [Version 1](https://www.dropbox.com/s/avlcftcfm9k6gp0/norwegian_bert_uncased.zip?dl=1)
 
+- Swedish Model
+
+[Version 1](https://www.dropbox.com/s/w38jslro7tb1j4m/swedish_bert_uncased.zip?dl=1)
+
 - Finnish Model:
 
 (In progress, in the meantime, we refer to: https://github.com/TurkuNLP/FinBERT)
-
-- Swedish Model
-
-(In progress, in the meantime, we refer to: https://github.com/af-ai-center/bert)
 
 ### Data
 
