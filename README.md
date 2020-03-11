@@ -7,15 +7,15 @@ This repository provides downloadable weights for a Danish, a Norwegian and a Sw
 
 ### Download weights
 
-- Danish Model:
+- Danish Model: (Trained on 9.5gb text)
 [Version 1](https://www.dropbox.com/s/b2ycb6l3icla0m1/danish_bert_uncased.zip?dl=1),
 [Version 2](https://www.dropbox.com/s/19cjaoqvv2jicq9/danish_bert_uncased_v2.zip?dl=1)
 
-- Norwegian Model:
-[Version 1](https://www.dropbox.com/s/avlcftcfm9k6gp0/norwegian_bert_uncased.zip?dl=1)
+- Norwegian Model: (Trained on 4.5gb text)
+[Version 1](https://www.dropbox.com/s/avlcftcfm9k6gp0/norwegian_bert_uncased.zip?dl=1) 
 
-- Swedish Model:
-[Version 1](https://www.dropbox.com/s/w38jslro7tb1j4m/swedish_bert_uncased.zip?dl=1)
+- Swedish Model: (Trained on 24.7gb text)
+[Version 1](https://www.dropbox.com/s/w38jslro7tb1j4m/swedish_bert_uncased.zip?dl=1) 
 
 - Finnish Model:
 (In progress, in the meantime we refer to: https://github.com/TurkuNLP/FinBERT)
