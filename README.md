@@ -87,7 +87,7 @@ It requires vast amounts of compute resources to train a BERT model.
 
 We have the technical expertise required to train models, but not the funds.
 
-If your organization would benefit from a BERT model pretrained on a custom dataset, or is interested in sponsoring Nordic AI initiatives, please contact us at jdm@botxo.co.
+If your organization would benefit from a BERT model pretrained on a custom dataset, or is interested in sponsoring Nordic AI initiatives, please contact us at hello@certainly.io.
 
 The price for training a custom model will depend on data size and availability.
 
@@ -109,8 +109,8 @@ For better or worse, BERT has gotten a lot of public attention, and as a result,
 
 If you use this work, please consider staring this repository.
 
-This work was sponsored by Danish Conversational AI & chatbot company BotXO
-http://www.botxo.ai
+This work is sponsored by the Danish/Spanish Conversational AI & Conversational Commerce company, Certainly.
+https://certainly.io/
 
 ### Licence
 
