@@ -79,7 +79,7 @@ The original BERT model was evaluated on the The Stanford Question Answering Dat
 
 ### Example Usage
 
-The model can be used directly, or (preferably) fine-tuned on a downstream task. The README in the official Google [BERT repository](https://github.com/google-research/bert) provides instructions and example scripts.
+The model can be used directly, or (preferably) fine-tuned on a downstream task. The README in the official Google [BERT repository](https://github.com/google-research/bert) provides instructions and example scripts. It should be noted that the embeddings are trained on lowercase texts, so you should lowercase your input before generating the embeddings.
 
 ### Would you like a model in your language / trained on your own custom data?
 
